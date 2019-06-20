@@ -70,7 +70,7 @@ def routes(app):
             return json_response(200, r, True)
 
 
-    # 启动脚本运行进程 script:脚本名, log:脚本名
+    # 启动脚本运行进程 script:脚本名, log:日志名
     @app.route("/start")
     def query_start():
         '''
